@@ -1,3 +1,5 @@
+Using start.bat to run the code.
+
 input parameter:
 1. input file path (obj, ply)
 2. if you want to subremesh and check face error in mesh (CAD mesh require),0: no; 1: yes
