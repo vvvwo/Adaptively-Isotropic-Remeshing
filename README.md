@@ -10,9 +10,9 @@ If you want to use the original code, pls add public library below:
 4. Eigen3+
 5. boost_1_67+
 
-if you just want to output some result, you can use the exe file in EXE folder.
+if you just want to output some results, you can use the exe file in EXE folder.
 
-input parameter:
+input parameters:
 1. input file path (obj, ply)
 2. if you want to subremesh and check face error in mesh (CAD mesh require),0: no; 1: yes
 3. isotropic select; 1: isotropic; 2: adaptively isotropic 
