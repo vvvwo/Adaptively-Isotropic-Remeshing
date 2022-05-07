@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Preprocessing">
+      <UniqueIdentifier>{07a30150-b170-44d6-b60d-0173b34f07be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intrinsic">
+      <UniqueIdentifier>{d581c75c-ca52-4fb4-a38f-a798a2c348ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Remeshing">
+      <UniqueIdentifier>{a14e95d3-7408-42bf-afa7-5e232ae1f006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCG\wrap\ply\plylib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\SHFRemesh.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\SubRemeshing.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\TriangleCheck.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\TriangleRemoveRepeat.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\AdpIsotropic.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\Isotropic.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\Mesh_Geometric.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\AdpIsotropic_Cuda.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+    <ClCompile Include="Remeshing\AdpIsotropic_OM.cpp">
+      <Filter>Header Files\Remeshing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Load_Resampling.hpp">
+      <Filter>Header Files\Preprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="geodesic.hpp">
+      <Filter>Header Files\Intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrinsicTransfer.hpp">
+      <Filter>Header Files\Intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Generate.hpp">
+      <Filter>Header Files\Preprocessing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Remeshing\AdpIsotropic_Cuda.cu">
+      <Filter>Header Files\Remeshing</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
